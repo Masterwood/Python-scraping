@@ -1,0 +1,7 @@
+dockerでpythonを動かすときは、
+docker run -i -t -v /c/Users/Yuta\ Kimura/Programing:/Programing mlearn:init /bin/bash
+でコンテナを開始する
+
+
+コンテナの状態を保存した後のやつ（こっち起動でできるかも？）
+docker run -i -t mlearn:init /bin/bash
